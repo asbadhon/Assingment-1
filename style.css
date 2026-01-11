@@ -1,0 +1,304 @@
+/* uniersal selector */
+*{
+/* padding: 0 ; */
+/* margin: 0; */
+/* max-width:1300px; */
+/* margin: auto; */
+max-width:1300px;
+margin: auto;
+}
+nav{
+   
+    display: flex;
+    background-color: none;
+justify-content: space-between;
+/* justify-content: center; */
+max-width:1300px;
+margin: auto;
+
+
+}
+.header-button{
+    background-color: rgb(31, 138, 31);
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 150px;
+    height: 40px;
+    
+}
+.link-parent{
+    display: flex;
+    gap: 30px; 
+list-style: none;
+align-items: center;
+}
+.link-parent a{
+    text-decoration: none;
+}
+/* hero scetion start here */
+.hero-parent{
+background-color: rgb(194, 50, 50);
+padding-top: 70px;
+width:100%;
+min-height: 100%;
+background-image: url(./assets/hero-bg.png);
+background-size: cover;
+background-position: center;
+
+
+}
+.heroscetionone{
+margin-top: 3px;
+
+
+}
+
+
+/* boxer moddhe je button */
+.button-two{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    gap: auto;
+    align-items: center;
+    margin-top: none;
+   
+   
+height: 35px;
+gap: 5px;
+
+}
+.exporticon{
+    margin: top 20px;
+}
+.button-two-content{
+color: rgb(15, 156, 15);
+
+}
+
+
+.herosectiontwo{
+display: flex;
+
+}
+
+.first-content{
+    text-align: center;
+    margin-top: 10px;
+    color: honeydew;
+    font-size: 45px;
+
+}
+.second-content{
+color: rgb(69, 172, 69);
+font-size: 48px;
+}
+.hero-section-paragraph{
+text-align: center;
+font-size: 13px;
+font-weight: 300px;
+color: honeydew;
+padding-bottom: 20px;
+}
+.button-duo{
+    display:inline-flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 470px;
+    gap: 12px;
+    margin-bottom: 100px;
+}
+.buttonthree{
+    color: white;
+    background-color: rgb(58, 153, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.button-four{
+    color: white;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.body-h1{
+ justify-content: center;
+ display: flex;
+ margin-top: 20px;   
+}
+.body-paragraph{
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+/* card section start here */
+.vector-card{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 40px;
+    border:white ;
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: 50px;
+margin-top: 17px;
+width: 322px;
+
+}
+.card-section-parent {
+    display: flex;
+    
+gap: 15px;
+width: auto;
+height: 300px;
+padding: auto;
+
+}
+.vector-card img{ 
+    background-color: orangered;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+}
+.vector-card p{
+    font-size: 10px;
+    color:  rgb(127, 147, 165);
+}
+.vector-card h2{
+    text-align: center;
+    /* display: flex; */
+    margin-top: 3px;
+     margin-bottom: 3px;
+    padding:3px;
+    font-weight: 150px;
+    padding-bottom: 8px;
+}
+.vector-card p{ 
+text-align: center;
+}
+
+.card-section-para-one{
+    margin-bottom: 15px;
+}
+.card-section-para-two{
+    margin-bottom: 25px;
+}
+
+.card-section-para-three{
+    margin-bottom: 15px;
+}
+.the-solution-part-parent{
+    display: flex;
+    text-align: center;
+    text-align: justify;
+  padding: 60px 40px 80px 40px;
+
+}
+.the-solution-part-parent-img{
+    border-radius: 20px;
+
+}
+.the-solution-card-headerone{
+    color: rgb(39, 117, 39);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: opx;
+}
+.the-solution-card-headertwo{
+    font-size: 48px;
+    font-style: bold;
+    font-weight: 700;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+.the-solution-card-paragraph{
+    color: rgb(156, 153, 153);
+    margin-bottom: 25px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+.the-solution-card-list{
+text-decoration: none;
+display: flex;
+padding: 0%;
+gap: 16;
+list-style: none;
+display: inline-block;
+  margin-right: 90px;
+}
+.challenge-section{
+    background-color: rgba(247, 246, 242, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 60px 40px 80px 40px;
+  border-radius: 12px;
+
+}
+.challenge-section-header{
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 19px;
+}
+.challenge-scetion-paraone{
+    text-align: center;
+    margin-bottom: 17px;
+    color: rgb(134, 128, 129);
+}
+
+.challenge-section-button{
+    color: rgb(249, 250, 249);
+    background-color: rgb(15, 156, 15);
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+     height: 52px;
+    border-radius: 5px;
+    gap: 2px;
+}
+
+.challenge-scetion-paratwo{
+    margin-top: 16px;
+    color: rgb(134, 128, 129);
+}
+/* footer section start here */
+.footer-section-parent{  
+display: flex;
+background-color: rgb(0, 25, 49);
+color: white;
+padding: 20px;
+text-align: center;
+margin-top: 80px;
+padding: auto;
+justify-content: center;
+gap: 400px;
+padding: 100px 100px 70px 100px;
+}
+.footer-copyright{
+    text-align: center;
+    justify-content: flex-start;
+gap: 30;
+    background-color: rgb(0, 25, 49);
+color: white;
+margin-bottom: 70px;
+padding: opx opx 90px 0px;
+}
