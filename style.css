@@ -310,6 +310,16 @@ justify-content: center;
 gap: 400px;
 padding: 100px 100px 70px 100px;
 }
+.divider{
+    border: none;
+    height: 2px;
+    background-color: #24374b; 
+    width: 80%;
+    padding: 0px -20px 4px -20px;
+  
+}
+
+  
 .footer-copyright{
     text-align: center;
     justify-content: flex-start;
