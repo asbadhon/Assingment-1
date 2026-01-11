@@ -6,6 +6,7 @@
 /* margin: auto; */
 max-width:1300px;
 margin: auto;
+font-family: "Inter", sans-serif;
 }
 nav{
    
@@ -194,15 +195,21 @@ padding: auto;
 text-align: center;
 }
 
+.card-sectiono-h2-one{
+    white-space: nowrap;
+}
 .card-section-para-one{
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 .card-section-para-two{
-    margin-bottom: 25px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .card-section-para-three{
-    margin-bottom: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 .the-solution-part-parent{
     display: flex;
