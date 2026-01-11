@@ -19,6 +19,7 @@ margin: auto;
 
 
 }
+/* header section start here */
 .header-button{
     background-color: rgb(31, 138, 31);
     color: #FFFFFF;
@@ -198,6 +199,8 @@ text-align: center;
 .card-sectiono-h2-one{
     white-space: nowrap;
 }
+
+/* card paragraph section start here */
 .card-section-para-one{
     font-size: 16px;
     margin-bottom: 30px;
@@ -251,6 +254,8 @@ list-style: none;
 display: inline-block;
   margin-right: 90px;
 }
+
+/* challenge section start here */
 .challenge-section{
     background-color: rgba(247, 246, 242, 1);
     display: flex;
