@@ -142,6 +142,7 @@ letter-spacing: 0%;
  margin-top: 20px;   
 }
 .body-paragraph{
+    color: rgb(134, 128, 129);
     justify-content: center;
     display: flex;
     margin-top: 5px;
@@ -249,7 +250,8 @@ display: inline-block;
     flex-direction: column;
     justify-content: center;
     margin-top: 100px;
-    padding: 60px 40px 80px 40px;
+    margin: 50px auto 0;
+    padding: 40px 30px;
   border-radius: 12px;
 
 }
